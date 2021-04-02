@@ -3,11 +3,17 @@
 chmod u+x Savegit_linux
 
 git init
-git remote add origin https://github.com/kbijker/Linux-wannehaves
+git remote add origin https://github.com/kbijker/Linux-wannehaves.git
 git add *
+git status
 
-git commit -m "first commit"
+echo -n "Geef commentaar:"
+read -r
+comm=$REPLY
+git commit -m "$comm"
+
+git branch -M main
+git push -u origin main
 
 git status
 
-git push -f origin master
