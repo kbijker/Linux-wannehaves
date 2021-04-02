@@ -1,8 +1,13 @@
 #!/bin/bash
 
+chmod u+x Savegit_linux
+
 git init
-git add *
-git commit -m "first commit"
-git branch -M main
 git remote add origin https://github.com/kbijker/Linux-wannehaves.git
-git push -u origin master
+git add *
+
+git commit -m "first commit"
+
+git status
+
+git push -f origin master
