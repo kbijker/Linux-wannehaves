@@ -3,7 +3,7 @@
 chmod u+x Savegit_linux
 
 git init
-git remote add origin https://github.com/kbijker/Linux-wannehaves.git
+git remote add origin git@github.com:kbijker/homelab.git
 git add *
 git status
 
