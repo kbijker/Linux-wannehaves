@@ -3,17 +3,26 @@
 chmod u+x Savegit_linux
 
 git init
-git remote add origin git@github.com:kbijker/homelab.git
-git add *
+
+#ssh -T git@github.com
+
+git remote set-url origin git@github.com:kbijker/Linux-wannehaves.git
+git add -A
+git commit -am "my update msg"
+git push
+
+
+#git remote add origin git@github.com:kbijker/homelab.git
+#git add *
 git status
 
-echo -n "Geef commentaar:"
-read -r
-comm=$REPLY
-git commit -m "$comm"
+#echo -n "Geef commentaar:"
+#read -r
+#comm=$REPLY
+#git commit -m "$comm"
 
-git branch -M main
-git push -u origin main
+#git branch -M main
+#git push -u origin main
 
-git status
+#git status
 
