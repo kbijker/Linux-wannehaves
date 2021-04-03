@@ -3,7 +3,7 @@
 chmod u+x Savegit_linux
 
 git init
-
+ssh-add ~/.ssh/id_ed25519
 #ssh -T git@github.com
 
 git remote set-url origin git@github.com:kbijker/Linux-wannehaves.git
