@@ -1,0 +1,8 @@
+read:
+
+root@kobus-Virtual-Machine:/home/kobus/Ansible_oefening/homelab# ssh-agent bash
+root@kobus-Virtual-Machine:/home/kobus/Ansible_oefening/homelab# ssh-add ~./ssh/id_ed25519
+~./ssh/id_ed25519: No such file or directory
+root@kobus-Virtual-Machine:/home/kobus/Ansible_oefening/homelab# ssh-add ~/.ssh/id_ed25519
+Enter passphrase for /root/.ssh/id_ed25519: 
+Identity added: /root/.ssh/id_ed25519 (k.e.bijker@pl.hanze.nl)
